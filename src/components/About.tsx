@@ -1,7 +1,5 @@
-
 export const About = () => {
-  return (
-    <section id="about" className="py-20 px-6">
+  return <section id="about" className="py-20 px-6">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">About Me</h2>
@@ -48,11 +46,7 @@ export const About = () => {
                 <p className="text-gray-400 mb-4">
                   "Single Image Deraining through Multi-scale Rain Streak Removal Using Deep Learning"
                 </p>
-                <p className="text-gray-300">
-                  Developing advanced deep learning techniques using U-Net with dilated convolutions, 
-                  multi-scale CNNs, and Swin Transformers to improve image clarity and enhance 
-                  downstream computer vision tasks.
-                </p>
+                <p className="text-gray-300">Developing advanced deep learning techniques using U-Net with dilated convolutions, multi-scale CNNs, and Transformers to improve image clarity and enhance downstream computer vision tasks.</p>
               </div>
             </div>
 
@@ -76,6 +70,5 @@ export const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
