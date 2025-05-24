@@ -69,7 +69,7 @@ export const Hero = () => {
           <div className="relative">
             <div className="relative z-10 bg-gradient-to-br from-purple-600/20 to-teal-600/20 rounded-full p-8 backdrop-blur-sm border border-purple-500/20">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" 
+                src="https://i.postimg.cc/W46g0DF5/temp-Image7pt1-Kh.avif" 
                 alt="Md. Jillur Rahman Zihad"
                 className="w-80 h-80 rounded-full object-cover mx-auto"
               />
