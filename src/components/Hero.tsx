@@ -67,11 +67,11 @@ export const Hero = () => {
           </div>
 
           <div className="relative">
-            <div className="relative z-10 bg-gradient-to-br from-purple-600/20 to-teal-600/20 rounded-full p-8 backdrop-blur-sm border border-purple-500/20">
+            <div className="relative z-10 bg-gradient-to-br from-purple-600/20 to-teal-600/20 rounded-full p-4 backdrop-blur-sm border border-purple-500/20">
               <img 
                 src="https://i.postimg.cc/W46g0DF5/temp-Image7pt1-Kh.avif" 
                 alt="Md. Jillur Rahman Zihad"
-                className="w-80 h-80 rounded-full object-cover mx-auto"
+                className="w-96 h-96 rounded-full object-cover mx-auto object-top"
               />
             </div>
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-purple-600 rounded-full opacity-20 animate-pulse"></div>
