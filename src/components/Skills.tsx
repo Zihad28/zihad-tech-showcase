@@ -2,7 +2,7 @@
 export const Skills = () => {
   const skillCategories = [{
     title: "Programming Languages",
-    skills: ["Python", "JavaScript", "HTML/CSS", "SQL", "C++", "Java"],
+    skills: ["Python", "JavaScript", "HTML/CSS", "SQL", "C++"],
     color: "purple"
   }, {
     title: "Machine Learning & AI",
@@ -10,11 +10,11 @@ export const Skills = () => {
     color: "teal"
   }, {
     title: "Web Development",
-    skills: ["React", "Node.js", "MySQL", "Firebase", "Responsive Design"],
+    skills: ["Node.js", "MySQL", "Firebase", "Responsive Design"],
     color: "teal"
   }, {
     title: "Mobile Development",
-    skills: ["Flutter", "Firebase Integration", "Cross-platform Development"],
+    skills: ["Kotlin (Basic)", "Firebase Integration", "Basic Mobile App Development"],
     color: "purple"
   }];
   return <section id="skills" className="py-20 px-6 bg-gray-800/30">
