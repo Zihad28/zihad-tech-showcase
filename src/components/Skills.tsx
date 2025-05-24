@@ -1,3 +1,4 @@
+
 export const Skills = () => {
   const skillCategories = [{
     title: "Programming Languages",
@@ -10,11 +11,11 @@ export const Skills = () => {
   }, {
     title: "Web Development",
     skills: ["React", "Node.js", "MySQL", "Firebase", "Responsive Design"],
-    color: "purple"
+    color: "teal"
   }, {
     title: "Mobile Development",
     skills: ["Flutter", "Firebase Integration", "Cross-platform Development"],
-    color: "teal"
+    color: "purple"
   }];
   return <section id="skills" className="py-20 px-6 bg-gray-800/30">
       <div className="container mx-auto">
@@ -26,14 +27,23 @@ export const Skills = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {skillCategories.map((category, index) => <div key={index} className="bg-gray-800/50 rounded-xl p-6 border border-gray-700 hover:border-purple-500/50 transition-colors">
+          {skillCategories.map((category, index) => (
+            <div key={index} className="bg-gray-800/50 rounded-xl p-6 border border-gray-700 hover:border-purple-500/50 transition-colors">
               <h3 className={`text-xl font-bold mb-4 ${category.color === 'purple' ? 'text-purple-400' : 'text-teal-400'}`}>
                 {category.title}
               </h3>
               <div className="space-y-3">
-                {category.skills.map((skill, skillIndex) => {})}
+                {category.skills.map((skill, skillIndex) => (
+                  <div 
+                    key={skillIndex} 
+                    className={`px-3 py-2 rounded-md bg-${category.color === 'purple' ? 'purple' : 'teal'}-500/20 text-${category.color === 'purple' ? 'purple' : 'teal'}-400`}
+                  >
+                    {skill}
+                  </div>
+                ))}
               </div>
-            </div>)}
+            </div>
+          ))}
         </div>
       </div>
     </section>;
