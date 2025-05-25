@@ -9,6 +9,7 @@ export const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    subject: '',
     message: ''
   });
 
@@ -18,7 +19,7 @@ export const Contact = () => {
       title: "Message sent!",
       description: "Thank you for your message. I'll get back to you soon.",
     });
-    setFormData({ name: '', email: '', message: '' });
+    setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -100,6 +101,19 @@ export const Contact = () => {
                   name="email"
                   type="email"
                   value={formData.email}
+                  onChange={handleChange}
+                  required
+                  className="bg-gray-700 border-gray-600 text-white"
+                />
+              </div>
+              <div>
+                <label htmlFor="subject" className="block text-sm font-medium text-gray-300 mb-2">
+                  Subject
+                </label>
+                <Input
+                  id="subject"
+                  name="subject"
+                  value={formData.subject}
                   onChange={handleChange}
                   required
                   className="bg-gray-700 border-gray-600 text-white"
