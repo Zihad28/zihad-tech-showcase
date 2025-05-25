@@ -72,7 +72,7 @@ export const Hero = () => {
                 src="https://i.postimg.cc/W46g0DF5/temp-Image7pt1-Kh.avif" 
                 alt="Md. Jillur Rahman Zihad"
                 className="w-96 h-96 rounded-full object-cover mx-auto object-top-center"
-                style={{ objectPosition: "center 5%" }}
+                style={{ objectPosition: "center 30%" }}
               />
             </div>
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-purple-600 rounded-full opacity-20 animate-pulse"></div>
