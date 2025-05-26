@@ -23,7 +23,7 @@ export const Hero = () => {
               </h1>
               <p className="text-xl text-gray-400 max-w-2xl">
                 Computer Science & Engineering student at CUET with expertise in Machine Learning, 
-                Deep Learning, Computer Vision, and Web Development. Currently researching advanced 
+                Deep Learning, Computer Vision, NLP, and Web Development. Currently researching advanced 
                 deep learning techniques for image deraining.
               </p>
             </div>
