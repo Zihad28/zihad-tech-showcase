@@ -1,3 +1,4 @@
+
 export const About = () => {
   return <section id="about" className="py-20 px-6">
       <div className="container mx-auto">
@@ -17,7 +18,7 @@ export const About = () => {
                   <h4 className="text-lg font-semibold">BSc in Computer Science & Engineering</h4>
                   <p className="text-gray-400">Chittagong University of Engineering & Technology (CUET)</p>
                   <p className="text-purple-400">CGPA: 3.88/4.00</p>
-                  <p className="text-sm text-gray-500">Expected Graduation: 2025</p>
+                  <p className="text-sm text-gray-500">Graduated: June 2025</p>
                 </div>
               </div>
             </div>
