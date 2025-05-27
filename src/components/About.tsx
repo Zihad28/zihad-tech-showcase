@@ -1,5 +1,3 @@
-
-
 export const About = () => {
   return <section id="about" className="py-20 px-6">
       <div className="container mx-auto">
@@ -61,7 +59,7 @@ export const About = () => {
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-purple-400 rounded-full mr-3"></div>
-                  Solved over 1500 problems across various online judges
+                  Solved 1500+ problems and took part in 80+ coding contests across leading online judges and onsite competitions.
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-purple-400 rounded-full mr-3"></div>
@@ -156,4 +154,3 @@ export const About = () => {
       </div>
     </section>;
 };
-
