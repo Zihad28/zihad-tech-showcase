@@ -1,3 +1,4 @@
+
 export const About = () => {
   return <section id="about" className="py-20 px-6">
       <div className="container mx-auto">
@@ -63,7 +64,33 @@ export const About = () => {
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-purple-400 rounded-full mr-3"></div>
-                  Active profiles on Codeforces and Codechef
+                  Active profiles on{" "}
+                  <a 
+                    href="https://codeforces.com/profile/Zihad_28" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-purple-400 hover:text-purple-300 underline mx-1"
+                  >
+                    Codeforces
+                  </a>
+                  ,{" "}
+                  <a 
+                    href="https://www.codechef.com/users/zihad1783" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-purple-400 hover:text-purple-300 underline mx-1"
+                  >
+                    CodeChef
+                  </a>
+                  {" "}and{" "}
+                  <a 
+                    href="https://leetcode.com/u/Zihad_028/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-purple-400 hover:text-purple-300 underline mx-1"
+                  >
+                    LeetCode
+                  </a>
                 </li>
               </ul>
             </div>
