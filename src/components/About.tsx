@@ -1,4 +1,3 @@
-
 export const About = () => {
   return <section id="about" className="py-20 px-6">
       <div className="container mx-auto">
@@ -17,7 +16,7 @@ export const About = () => {
                 <div>
                   <h4 className="text-lg font-semibold">BSc in Computer Science & Engineering</h4>
                   <p className="text-gray-400">Chittagong University of Engineering & Technology (CUET)</p>
-                  <p className="text-purple-400">CGPA: 3.88/4.00</p>
+                  <p className="text-purple-400">CGPA: 3.90/4.00</p>
                   <p className="text-sm text-gray-500">Graduated: June 2025</p>
                 </div>
               </div>
@@ -53,35 +52,20 @@ export const About = () => {
                   <h4 className="text-lg font-semibold text-white mb-2">Deep Learning Specialization</h4>
                   <p className="text-gray-400 mb-3">
                     Offered by{" "}
-                    <a 
-                      href="https://www.deeplearning.ai" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-green-400 hover:text-green-300 underline"
-                    >
+                    <a href="https://www.deeplearning.ai" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 underline">
                       DeepLearning.AI
                     </a>
                     {" "}on Coursera
                   </p>
                   <ul className="space-y-2 text-gray-300">
                     <li>
-                      <a 
-                        href="https://coursera.org/share/ace49ca7d1938c8d2c71e014b8c92194" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-green-400 hover:text-green-300 underline"
-                      >
+                      <a href="https://coursera.org/share/ace49ca7d1938c8d2c71e014b8c92194" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 underline">
                         Neural Networks and Deep Learning
                       </a>
                       {" "}– Completed July 2023
                     </li>
                     <li>
-                      <a 
-                        href="https://coursera.org/share/b2ef708106bb80512a14b0132111dc11" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-green-400 hover:text-green-300 underline"
-                      >
+                      <a href="https://coursera.org/share/b2ef708106bb80512a14b0132111dc11" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 underline">
                         Convolutional Neural Networks
                       </a>
                       {" "}– Completed September 2023
@@ -121,30 +105,15 @@ export const About = () => {
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-purple-400 rounded-full mr-3"></div>
                   Active profiles on{" "}
-                  <a 
-                    href="https://codeforces.com/profile/Zihad_28" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-purple-400 hover:text-purple-300 underline mx-1"
-                  >
+                  <a href="https://codeforces.com/profile/Zihad_28" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline mx-1">
                     Codeforces
                   </a>
                   ,{" "}
-                  <a 
-                    href="https://www.codechef.com/users/zihad1783" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-purple-400 hover:text-purple-300 underline mx-1"
-                  >
+                  <a href="https://www.codechef.com/users/zihad1783" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline mx-1">
                     CodeChef
                   </a>
                   {" "}and{" "}
-                  <a 
-                    href="https://leetcode.com/u/Zihad_028/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-purple-400 hover:text-purple-300 underline mx-1"
-                  >
+                  <a href="https://leetcode.com/u/Zihad_028/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline mx-1">
                     LeetCode
                   </a>
                 </li>
