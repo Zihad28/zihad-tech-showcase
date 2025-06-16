@@ -1,4 +1,5 @@
 
+
 export const Skills = () => {
   const skillCategories = [{
     title: "Programming Languages",
@@ -6,11 +7,11 @@ export const Skills = () => {
     color: "purple"
   }, {
     title: "Data Science & ML Libraries",
-    skills: ["NumPy", "Pandas", "Scikit-learn", "PyTorch", "TensorFlow", "Keras", "Transformers", "Hugging Face"],
+    skills: ["NumPy", "Pandas", "Scikit-learn", "PyTorch", "TensorFlow", "Keras", "Hugging Face"],
     color: "teal"
   }, {
     title: "Machine Learning & AI",
-    skills: ["Computer Vision", "Neural Network Architectures", "Optimization Algorithms", "Large Language Models (LLMs)", "Multimodal Learning", "NLP", "Deep Learning"],
+    skills: ["Computer Vision", "Neural Network Architectures", "Optimization Algorithms", "Large Language Models (LLMs)", "Multimodal Learning", "NLP", "Deep Learning", "Transformers"],
     color: "purple"
   }, {
     title: "Web Development",
