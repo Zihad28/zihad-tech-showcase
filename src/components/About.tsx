@@ -87,7 +87,7 @@ export const About = () => {
                 <p className="text-gray-400 mb-4">
                   "Single Image Deraining through Multi-scale Rain Streak Removal Using Deep Learning"
                 </p>
-                <p className="text-gray-300">Harnessing advanced deep learning with a novel Rain Removal Transformer and Mixed-Scale Feed-Forward Networks within an encoder-decoder framework — designed to restore image clarity and enhance performance in downstream vision tasks.</p>
+                <p className="text-gray-300">Developed a novel PDAformer model with physics-aware directional axial attention, cross-gated multi-scale feedforward, and Multi-Scale Contextual Feature Enhancement Module with spatial-channel attention, achieving competitive state-of-the-art deraining performance on benchmarks.</p>
               </div>
             </div>
 
