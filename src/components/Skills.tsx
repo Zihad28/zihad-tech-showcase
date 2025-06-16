@@ -1,3 +1,4 @@
+
 export const Skills = () => {
   const skillCategories = [{
     title: "Programming Languages",
@@ -5,7 +6,7 @@ export const Skills = () => {
     color: "purple"
   }, {
     title: "Data Science & ML Libraries",
-    skills: ["NumPy", "Pandas", "Scikit-learn", "PyTorch", "TensorFlow", "Keras", "Hugging Face Transformers"],
+    skills: ["NumPy", "Pandas", "Scikit-learn", "PyTorch", "TensorFlow", "Keras", "Transformers", "Hugging Face"],
     color: "teal"
   }, {
     title: "Machine Learning & AI",
