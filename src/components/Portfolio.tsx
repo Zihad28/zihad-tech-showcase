@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Github, ArrowRight } from "lucide-react";
 
@@ -27,7 +26,7 @@ export const Portfolio = () => {
     },
     {
       title: "Single Image Deraining Research",
-      description: "Advanced research project on rain removal from images using U-Net with dilated convolutions, multi-scale CNNs, and Swin Transformers.",
+      description: "Developed a novel PDAformer model with physics-aware directional axial attention, cross-gated multi-scale feedforward, and Multi-Scale Contextual Feature Enhancement Module with spatial-channel attention, achieving competitive state-of-the-art deraining performance on benchmarks.",
       tech: ["Python", "PyTorch", "Computer Vision", "Deep Learning"],
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
       category: "Research Project"
