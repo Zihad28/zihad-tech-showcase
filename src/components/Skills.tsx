@@ -1,13 +1,16 @@
-
 export const Skills = () => {
   const skillCategories = [{
     title: "Programming Languages",
     skills: ["Python", "JavaScript", "HTML/CSS", "SQL", "C++"],
     color: "purple"
   }, {
-    title: "Machine Learning & AI",
-    skills: ["PyTorch", "TensorFlow", "Keras", "Computer Vision", "NLP", "Deep Learning"],
+    title: "Data Science & ML Libraries",
+    skills: ["NumPy", "Pandas", "Scikit-learn", "PyTorch", "TensorFlow", "Keras", "Hugging Face Transformers"],
     color: "teal"
+  }, {
+    title: "Machine Learning & AI",
+    skills: ["Computer Vision", "Neural Network Architectures", "Optimization Algorithms", "Large Language Models (LLMs)", "Multimodal Learning", "NLP", "Deep Learning"],
+    color: "purple"
   }, {
     title: "Web Development",
     skills: ["Node.js", "MySQL", "Firebase", "Responsive Design"],
@@ -17,6 +20,7 @@ export const Skills = () => {
     skills: ["Kotlin (Basic)", "Firebase Integration", "Basic Mobile App Development"],
     color: "purple"
   }];
+
   return <section id="skills" className="py-20 px-6 bg-gray-800/30">
       <div className="container mx-auto">
         <div className="text-center mb-16">
