@@ -84,6 +84,8 @@ export const Portfolio = () => {
                     onClick={() => {
                       if (project.title === "Deen – Islamic App") {
                         window.open("https://github.com/ashrafulparan2/Deen-An-Islamic-Application", "_blank");
+                      } else if (project.title === "Ignited Minds – STEM Learning Platform") {
+                        window.open("https://github.com/5pace4/Ignited_Minds", "_blank");
                       }
                     }}
                   >
