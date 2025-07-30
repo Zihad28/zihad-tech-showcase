@@ -92,6 +92,38 @@ export const About = () => {
             </div>
 
             <div className="bg-gray-800/50 rounded-xl p-8 border border-gray-700">
+              <h3 className="text-2xl font-bold text-blue-400 mb-4">Publications</h3>
+              <div>
+                <h4 className="text-lg font-semibold mb-2">ART-UNet: Attentive Rain-Transformer U-Net with Cross-Scale Feature Fusion for Single Image Deraining</h4>
+                <p className="text-gray-400 mb-2">
+                  <span className="text-yellow-400 font-medium">Under Review</span> - 2025 7th International Conference on Sustainable Technologies for Industry 5.0 (STI 2025)
+                </p>
+                <p className="text-gray-500 mb-3">18–19 December 2025 — Green University of Bangladesh</p>
+                <p className="text-gray-400 mb-4">
+                  <strong>Authors:</strong> Md. Jillur Rahman Zihad, Sabiha Anan, Dr. Kaushik Deb
+                </p>
+                <ul className="space-y-2 text-gray-300">
+                  <li className="flex items-start">
+                    <div className="w-2 h-2 bg-blue-400 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                    Introduces ART-UNet, a transformer-based U-Net framework with Rain-Attentive Multi-Scale Transformer (RAMST) for precise rain streak removal.
+                  </li>
+                  <li className="flex items-start">
+                    <div className="w-2 h-2 bg-blue-400 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                    Incorporates cross-scale fusion and gated feedforward mechanisms for enhanced spatial detail recovery and contextual consistency.
+                  </li>
+                  <li className="flex items-start">
+                    <div className="w-2 h-2 bg-blue-400 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                    Employs a unified rain processor and frequency-adaptive reconstruction block for progressive deraining refinement.
+                  </li>
+                  <li className="flex items-start">
+                    <div className="w-2 h-2 bg-blue-400 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                    Validated on multiple benchmark datasets, demonstrating superior performance over existing state-of-the-art deraining approaches.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-gray-800/50 rounded-xl p-8 border border-gray-700">
               <h3 className="text-2xl font-bold text-teal-400 mb-4">Achievements</h3>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center">
