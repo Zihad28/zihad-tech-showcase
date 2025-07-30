@@ -86,6 +86,8 @@ export const Portfolio = () => {
                         window.open("https://github.com/ashrafulparan2/Deen-An-Islamic-Application", "_blank");
                       } else if (project.title === "Ignited Minds – STEM Learning Platform") {
                         window.open("https://github.com/5pace4/Ignited_Minds", "_blank");
+                      } else if (project.title === "Image Caption Generator") {
+                        window.open("https://github.com/ashrafulparan2/Caption-Generator", "_blank");
                       }
                     }}
                   >
