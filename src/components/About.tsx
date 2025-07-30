@@ -1,3 +1,6 @@
+import { Button } from "@/components/ui/button";
+import { Github, ExternalLink } from "lucide-react";
+
 export const About = () => {
   return <section id="about" className="py-20 px-6">
       <div className="container mx-auto">
@@ -29,10 +32,41 @@ export const About = () => {
                   <h4 className="text-lg font-semibold">Industrial Attachment Trainee</h4>
                   <p className="text-gray-400">Robi Axiata Ltd.</p>
                   <p className="text-sm text-gray-500">Dec 2024 – Jan 2025</p>
-                  <p className="text-gray-300 mt-2">
-                    Collaborated on machine learning projects for anomaly detection, 
-                    customer satisfaction analysis, and customer segmentation.
-                  </p>
+                  <ul className="space-y-2 text-gray-300 mt-3">
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-teal-400 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                      Worked in a cross-functional team to build a machine learning-based analytics system for telecom data.
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-teal-400 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                      Developed modules for anomaly detection, customer satisfaction analysis and customer segmentation.
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-teal-400 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                      Gained practical experience in real-world data preprocessing, feature engineering and model evaluation.
+                    </li>
+                  </ul>
+                  <div className="flex items-center gap-3 mt-4">
+                    <span className="text-gray-400 font-medium">View Project: OptiPulse – ML Toolkit for Telecom Insights</span>
+                  </div>
+                  <div className="flex items-center gap-3 mt-3">
+                    <Button 
+                      variant="outline" 
+                      size="sm"
+                      onClick={() => window.open("https://github.com/RJ-Hossan/OptiPulse", "_blank")}
+                    >
+                      <Github className="h-4 w-4 mr-2" />
+                      View Code
+                    </Button>
+                    <Button 
+                      size="sm" 
+                      className="bg-teal-600 hover:bg-teal-700"
+                      onClick={() => window.open("https://optipulse.streamlit.app", "_blank")}
+                    >
+                      Live Demo
+                      <ExternalLink className="h-4 w-4 ml-2" />
+                    </Button>
+                  </div>
                 </div>
               </div>
             </div>
