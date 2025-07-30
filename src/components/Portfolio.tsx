@@ -78,7 +78,15 @@ export const Portfolio = () => {
                 </div>
 
                 <div className="flex items-center justify-between pt-4">
-                  <Button variant="outline" size="sm">
+                  <Button 
+                    variant="outline" 
+                    size="sm"
+                    onClick={() => {
+                      if (project.title === "Deen – Islamic App") {
+                        window.open("https://github.com/ashrafulparan2/Deen-An-Islamic-Application", "_blank");
+                      }
+                    }}
+                  >
                     <Github className="h-4 w-4 mr-2" />
                     View Code
                   </Button>
